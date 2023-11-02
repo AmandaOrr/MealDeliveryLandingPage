@@ -46,7 +46,7 @@ const NavBar = () => {
       <div className="nav-logo-container">
         <img src={Logo} alt="" style={{width: '500px'}}/>
       </div>
-      <div className="navbar-links-container">
+      <div className="navbar-links-container flex items-center">
         <a href="">Home</a>
         <a href="">About</a>
         <a href="">Testimonials</a>
@@ -56,7 +56,7 @@ const NavBar = () => {
         </a>
         <button className="primary-button">Order Now</button>
       </div>
-      <div className="navbar-menuContainer">
+      <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div>
       <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right">

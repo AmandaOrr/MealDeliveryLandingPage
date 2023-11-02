@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../Assets/Logo.svg";
+import Logo from "../Assets/metromealogo2.svg" ;
 import { BsCart, BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import {
@@ -44,7 +44,7 @@ const NavBar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" style={{width: '500px'}}/>
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
@@ -54,7 +54,7 @@ const NavBar = () => {
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">Bookings Now</button>
+        <button className="primary-button">Order Now</button>
       </div>
       <div className="navbar-menuContainer">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

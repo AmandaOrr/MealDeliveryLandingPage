@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="footer-logo-container">
           <img src={Logo} alt=" " style={{width: '500px'}}/>
         </div>
-        <div className="footer-icons">
+        <div className="footer-icons flex flex-row">
           <BsTwitter />
           <SiLinkedin />
           <BsYoutube />

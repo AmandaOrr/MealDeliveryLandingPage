@@ -47,10 +47,10 @@ const NavBar = () => {
         <img src={Logo} alt="" style={{width: '500px'}}/>
       </div>
       <div className="navbar-links-container flex items-center">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
+        <a href="#home-section">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#testimonials-section">Testimonials</a>
+        <a href="#contact-section">Contact</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a>

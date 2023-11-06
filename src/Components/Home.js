@@ -16,13 +16,12 @@ const Home = () => {
         <div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />
         </div>
-        <div className="home-text-section">
+        <div className="home-text-section" id="home-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+          Delivering Freshness to Your Doorstep
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+          Our mission is to deliver not just meals but memorable culinary experiences, prepared with the finest ingredients and a dash of urban flair. 
           </p>
           <button className="secondary-button">
             Order Now <FiArrowRight />

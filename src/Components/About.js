@@ -12,16 +12,14 @@ export const About = () => {
       <div className="about-section-image-container">
         <img src={AboutBackgroundImage} alt="" />
       </div>
-      <div className="about-section-text-container">
+      <div className="about-section-text-container" id="about-section">
         <p className="primary-subheading">About</p>
-        <h1 className="primary-heading">Food Is An Important Part Of A Balanced Diet</h1>
+        <h1 className="primary-heading">Feeding Your City, One Meal at a Time</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Metro Meals brings the vibrant flavors of the city to your table, offering a diverse range of delicious dishes from around the world. .
         </p>
         <p className="primary-text">
-        Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Our mission is to deliver not just meals but memorable culinary experiences, prepared with the finest ingredients and a dash of urban flair. With Metro Meals, every day is a culinary adventure, right at your doorstep.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>

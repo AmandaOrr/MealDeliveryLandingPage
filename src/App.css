@@ -17,6 +17,7 @@ img {
   width: 85vw;
   max-width: 1900px;
   margin: 0rem auto;
+
 }
 body {
   max-width: 100%;
@@ -42,6 +43,7 @@ nav {
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
+  
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
